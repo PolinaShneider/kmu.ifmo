@@ -62,14 +62,16 @@
 	display: none;
 }
 
-@media (--mobile) {
+@media (max-width: 900px) {
 	.logo--en, .logo--ru {
 	    display: none;
 	}
 	.logo--mobile {
     	display: block !important;
 	}
+}
 
+@media (--mobile) {
 	.header {
 		&__apply {
 			display: none;
@@ -92,10 +94,11 @@
 
 	.header-info-mobile {
 		.header__title {
-			margin: 15px auto 10px;
+			margin: 20px auto 10px;
 		}
 		.header__apply {
 			margin: 10px auto;
 		}
 	}
 }
+

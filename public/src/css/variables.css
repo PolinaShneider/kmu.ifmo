@@ -6,9 +6,11 @@
 
     /*Colors*/
     --light-gray: #fdfdfd;
+    --gray: #f6f6f6;
+    --text-white: #ffffff;
 }
 
 /**
  * Custom media queries
  */
-@custom-media --mobile all and (max-width: 900px);
+@custom-media --mobile all and (max-width: 760px);

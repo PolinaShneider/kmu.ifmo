@@ -2,9 +2,16 @@ body {
     font-family: system-ui;
     -webkit-font-smoothing: antialiased;
 }
+html, body {
+	height: 100%;
+}
 .shadow {
     box-shadow: 1px 2px 3px 0 rgba(38, 45, 67, 0.05);
 }
 .hide {
 	display: none !important;
+}
+.page-container {
+	max-width: 100%;
+	overflow: hidden;
 }

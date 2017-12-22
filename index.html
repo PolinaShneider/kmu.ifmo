@@ -3,45 +3,52 @@
 <head>
     <title>Конгресс молодых ученых</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="public/build/bundle.css">
 </head>
 <body>
-<!-- Start of Header Block -->
-<header class="header shadow">
-    <div class="header__container">
-        <div class="header__logo">
-            <img class="js-logo--ru logo--ru" src="public/src/img/itmo_ru.svg">
-            <img class="js-logo--en logo--en hide" src="public/src/img/itmo_en.svg">
-            <img class="logo--mobile hide" src="public/src/img/itmo_mobile.svg">
+<!-- Start of Main Page Container -->
+<div class="page-container">
+    <!-- Start of Header Block -->
+    <header class="header shadow">
+        <div class="header__container">
+            <div class="header__logo">
+                <img class="js-logo--ru logo--ru" src="public/src/img/itmo_ru.svg">
+                <img class="js-logo--en logo--en hide" src="public/src/img/itmo_en.svg">
+                <img class="logo--mobile hide" src="public/src/img/itmo_mobile.svg">
+            </div>
+            <div class="header__title js-header__title--ru">VII Конгресс молодых ученых 2018</div>
+            <div class="header__title js-header__title--en hide">VII Congress of young scientists 2018</div>
+            <a class="header__apply js-header__apply--ru" href="http://kmu.ifmo.ru/" target="_blank">Подать заявку</a>
+            <a class="header__apply js-header__apply--en hide" href="http://kmu.ifmo.ru/" target="_blank">Apply</a>
+            <div class="header__lang-switcher">
+                <span>
+                    <img class="js-switcher--ru" src="public/src/img/ru.svg" title="ru">
+                </span> / 
+                <span>
+                    <img class="js-switcher--en" src="public/src/img/usa.svg" title="en">
+                </span>
+            </div>
         </div>
+    </header>
+    <div class="header-info-mobile">
         <div class="header__title js-header__title--ru">VII Конгресс молодых ученых 2018</div>
         <div class="header__title js-header__title--en hide">VII Congress of young scientists 2018</div>
         <a class="header__apply js-header__apply--ru" href="http://kmu.ifmo.ru/" target="_blank">Подать заявку</a>
         <a class="header__apply js-header__apply--en hide" href="http://kmu.ifmo.ru/" target="_blank">Apply</a>
-        <div class="header__lang-switcher">
-            <span>
-                <img class="js-switcher--ru" src="public/src/img/ru.svg" title="ru">
-            </span> / 
-            <span>
-                <img class="js-switcher--en" src="public/src/img/usa.svg" title="en">
-            </span>
-        </div>
     </div>
-</header>
-<div class="header-info-mobile">
-    <div class="header__title js-header__title--ru">VII Конгресс молодых ученых 2018</div>
-    <div class="header__title js-header__title--en hide">VII Congress of young scientists 2018</div>
-    <a class="header__apply js-header__apply--ru" href="http://kmu.ifmo.ru/" target="_blank">Подать заявку</a>
-    <a class="header__apply js-header__apply--en hide" href="http://kmu.ifmo.ru/" target="_blank">Apply</a>
+    <!-- End of Header Block -->
+    <!-- Start of Main Info Section -->
+    <div class="main-info js-placeholder" data-large="/public/src/img/bg-image.png">
+        <img src="/public/src/img/bg-image-small.png" class="img-small">
+        <div style="padding-bottom: 50%;"></div>
+        <h1 class="main-info__h1 js-main-info__h1--ru shadow">Круглый стол “Цифровые гуманитарные науки”</h1>
+        <h1 class="main-info__h1 js-main-info__h1--en shadow hide">Round Table <br>“Digital Humanities”</h1>
+    </div>
+    <!-- End of Main Info Section -->
 </div>
-<!-- End of Header Block -->
-<!-- Start of Main Info Section -->
-<div class="main-info">
-    <h1 class="main-info__h1 js-main-info__h1--ru">Круглый стол “Цифровые гуманитарные науки”</h1>
-    <h1 class="main-info__h1 js-main-info__h1--en hide">Round Table “Digital Humanities”</h1>
-</div>
-<!-- End of Main Info Section -->
+<!-- End of Main Page Container -->
 <script src="public/build/bundle.js"></script>
 </body>
 </html>
