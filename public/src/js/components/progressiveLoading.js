@@ -8,7 +8,7 @@ var progressiveLoading = function () {
   if (window.screen.width > 600) {
     img.src = small.src;
   } else {
-    img.src = '/public/src/img/bg-image-cropped-small.png';
+    img.src = 'public/src/img/bg-image-cropped-small.png';
   }
 
   img.onload = function () {
@@ -21,7 +21,7 @@ var progressiveLoading = function () {
   if (window.screen.width > 600) {
     imgLarge.src = placeholder.dataset.large;
   } else {
-    imgLarge.src = '/public/src/img/bg-image-cropped.png';
+    imgLarge.src = 'public/src/img/bg-image-cropped.png';
   }
 
   imgLarge.onload = function () {
