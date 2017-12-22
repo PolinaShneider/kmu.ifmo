@@ -1,0 +1,14 @@
+/**
+ * Normalize.css — a modern alternative to CSS resets
+ * https://github.com/necolas/normalize.css
+ */
+@import "normalize.css";
+
+/**
+ * Project's styles
+ */
+@import "./variables.css";
+@import "./base.css";
+
+@import "./components/header.css";
+@import "./components/main-info.css";

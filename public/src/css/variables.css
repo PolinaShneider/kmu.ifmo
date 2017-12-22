@@ -1,0 +1,14 @@
+/**
+ * Variables
+ */
+:root {
+    --page-max-width: 1200px;
+
+    /*Colors*/
+    --light-gray: #fdfdfd;
+}
+
+/**
+ * Custom media queries
+ */
+@custom-media --mobile all and (max-width: 900px);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ru</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ru" fill-rule="nonzero">
+            <circle id="Oval" fill="#F0F0F0" cx="14" cy="14" r="14"></circle>
+            <path d="M27.1292109,18.8695391 C27.692,17.3528906 28,15.7124844 28,14 C28,12.2875156 27.692,10.6471094 27.1292109,9.13046094 L0.870789062,9.13046094 C0.308054687,10.6471094 0,12.2875156 0,14 C0,15.7124844 0.308054687,17.3528906 0.870789062,18.8695391 L14,20.0869375 L27.1292109,18.8695391 Z" id="Shape" fill="#0052B4"></path>
+            <path d="M14,28 C20.0195078,28 25.1511094,24.20075 27.1292109,18.8695391 L0.870789063,18.8695391 C2.84889062,24.20075 7.98049219,28 14,28 Z" id="Shape" fill="#D80027"></path>
+        </g>
+    </g>
+</svg>
