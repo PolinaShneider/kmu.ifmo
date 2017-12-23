@@ -1,0 +1,15 @@
+.description {
+    max-width: var(--page-max-width);
+	margin: 30px auto;
+	padding: 0 30px;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.25em;
+}
+
+@media (--mobile) {
+	.description {
+		font-size: 20px;
+		text-align: initial;
+	}
+}

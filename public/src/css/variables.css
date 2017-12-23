@@ -6,8 +6,10 @@
 
     /*Colors*/
     --light-gray: #fdfdfd;
+    --dark-gray: #444444;
     --gray: #f6f6f6;
     --text-white: #ffffff;
+    --text-blue: #AFCFE7;
 }
 
 /**
