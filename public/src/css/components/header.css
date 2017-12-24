@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 5;
+    z-index: 7;
 
     &__container {
 	    display: flex;
