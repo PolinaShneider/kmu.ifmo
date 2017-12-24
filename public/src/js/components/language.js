@@ -4,6 +4,8 @@ var language = function () {
     /* Toggle Logo*/
     document.querySelector('.js-logo--en').classList.toggle('hide', false);
     document.querySelector('.js-logo--ru').classList.toggle('hide', true);
+    document.querySelector('.js-logo--mobile--en').classList.toggle('hide', false);
+    document.querySelector('.js-logo--mobile--ru').classList.toggle('hide', true);
 
     /* Toggle Apply Button*/
     var HeaderApplyButtonsRu = document.querySelectorAll('.js-header__apply--en');
@@ -38,12 +40,20 @@ var language = function () {
     /* Toggle Round Table List*/
     document.querySelector('.js-round-table__ol--en').classList.toggle('hide', false);
     document.querySelector('.js-round-table__ol--ru').classList.toggle('hide', true);
+
+    /* Toggle Date & Time*/
+    document.querySelector('.js-date-and-place__date--en').classList.toggle('hide', false);
+    document.querySelector('.js-date-and-place__date--ru').classList.toggle('hide', true);
+    document.querySelector('.js-date-and-place__place--en').classList.toggle('hide', false);
+    document.querySelector('.js-date-and-place__place--ru').classList.toggle('hide', true);
   });
 
   document.querySelector('.js-switcher--ru').addEventListener('click', function () {
     /* Toggle Logo*/
     document.querySelector('.js-logo--en').classList.toggle('hide', true);
     document.querySelector('.js-logo--ru').classList.toggle('hide', false);
+    document.querySelector('.js-logo--mobile--en').classList.toggle('hide', true);
+    document.querySelector('.js-logo--mobile--ru').classList.toggle('hide', false);
 
     /* Toggle Apply Button*/
     var HeaderApplyButtonsRu = document.querySelectorAll('.js-header__apply--en');
@@ -78,6 +88,12 @@ var language = function () {
     /* Toggle Round Table List*/
     document.querySelector('.js-round-table__ol--en').classList.toggle('hide', true);
     document.querySelector('.js-round-table__ol--ru').classList.toggle('hide', false);
+
+    /* Toggle Date & Time*/
+    document.querySelector('.js-date-and-place__date--en').classList.toggle('hide', true);
+    document.querySelector('.js-date-and-place__date--ru').classList.toggle('hide', false);
+    document.querySelector('.js-date-and-place__place--en').classList.toggle('hide', true);
+    document.querySelector('.js-date-and-place__place--ru').classList.toggle('hide', false);
   });
 }();
 

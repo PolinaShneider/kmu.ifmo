@@ -15,9 +15,15 @@
     <header class="header shadow">
         <div class="header__container">
             <div class="header__logo">
+            <a href="http://www.ifmo.ru/ru/" target="_blank">
                 <img class="js-logo--ru logo--ru" src="public/src/img/itmo_ru.svg">
+                <img class="logo--mobile js-logo--mobile--ru" src="public/src/img/itmo_mobile.svg">
+            </a>
+            <a href="http://en.ifmo.ru/en/" target="_blank">
                 <img class="js-logo--en logo--en hide" src="public/src/img/itmo_en.svg">
-                <img class="logo--mobile hide" src="public/src/img/itmo_mobile.svg">
+                <img class="logo--mobile js-logo--mobile--en hide" src="public/src/img/itmo_mobile.svg">
+            </a>
+                
             </div>
             <div class="header__title js-header__title--ru">VII Конгресс молодых ученых 2018</div>
             <div class="header__title js-header__title--en hide">VII Congress of young scientists 2018</div>
@@ -33,15 +39,17 @@
             </div>
         </div>
     </header>
-    <div class="header-info-mobile">
-        <div class="header__title js-header__title--ru">VII Конгресс молодых ученых 2018</div>
-        <div class="header__title js-header__title--en hide">VII Congress of young scientists 2018</div>
-        <a class="header__apply js-header__apply--ru" href="http://kmu.ifmo.ru/" target="_blank">Подать заявку</a>
-        <a class="header__apply js-header__apply--en hide" href="http://kmu.ifmo.ru/" target="_blank">Apply</a>
-    </div>
     <!-- End of Header Block -->
     <!-- Start of Main Info Section -->
     <div class="main-info js-placeholder" data-large="public/src/img/bg-image.png">
+        <!-- Header Contents On Mobile -->
+        <div class="header-info-mobile">
+            <div class="header__title js-header__title--ru">VII Конгресс молодых ученых 2018</div>
+            <div class="header__title js-header__title--en hide">VII Congress of young scientists 2018</div>
+            <a class="header__apply js-header__apply--ru" href="http://kmu.ifmo.ru/" target="_blank">Подать заявку</a>
+            <a class="header__apply js-header__apply--en hide" href="http://kmu.ifmo.ru/" target="_blank">Apply</a>
+        </div>
+        <!-- Header Contents On Mobile -->
         <img src="public/src/img/bg-image-small.png" class="img-small">
         <div style="padding-bottom: 50%;"></div>
         <h1 class="main-info__h1 js-main-info__h1--ru shadow">Круглый стол “Цифровые гуманитарные науки”</h1>
@@ -82,6 +90,16 @@
         </ol>
     </div>
     <!-- End of Round Table Section -->
+    <!-- Start of Date and Place Block -->
+    <div class="date-and-place">
+        <div class="date-and-place__contents">
+            <div class="date-and-place__date js-date-and-place__date--en hide">Date of transfomation</div>
+            <div class="date-and-place__date js-date-and-place__date--ru">Дата проведения:</div>
+            <div class="date-and-place__place js-date-and-place__place--en hide">Place of transformation</div>
+            <div class="date-and-place__place js-date-and-place__place--ru">Место проведения:</div>
+        </div>
+    </div>
+    <!-- End of Date and Place Block -->
 </div>
 <!-- End of Main Page Container -->
 <script src="public/build/bundle.js"></script>
