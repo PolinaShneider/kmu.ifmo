@@ -1,7 +1,6 @@
 .date-and-place {
 	position: relative;
-	background-color: #000000;
-	background-image: url(/public/src/img/brain.png);
+	background: #000000 url(/public/src/img/brain.png);
 	background-size: 40%;
 	height: 510px;
 	background-repeat: no-repeat;
