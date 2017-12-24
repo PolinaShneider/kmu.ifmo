@@ -1,6 +1,5 @@
 .round-table {
-
-	background: url(/public/src/img/digital-humanities.jpg);
+	background: url('/public/src/img/digital-humanities.jpg');
 	background-size: cover;
 	background-position: center;
 	position: relative;
