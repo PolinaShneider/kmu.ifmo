@@ -46,6 +46,18 @@ var language = function () {
     document.querySelector('.js-date-and-place__date--ru').classList.toggle('hide', true);
     document.querySelector('.js-date-and-place__place--en').classList.toggle('hide', false);
     document.querySelector('.js-date-and-place__place--ru').classList.toggle('hide', true);
+
+    /* Toggle How It Was Title*/
+    document.querySelector('.js-how-it-was__h2--en').classList.toggle('hide', false);
+    document.querySelector('.js-how-it-was__h2--ru').classList.toggle('hide', true);
+
+    /* Toggle Footer Content*/
+    document.querySelector('.js-footer__media--en').classList.toggle('hide', false);
+    document.querySelector('.js-footer__media--ru').classList.toggle('hide', true);
+    document.querySelector('.js-footer__apply--en').classList.toggle('hide', false);
+    document.querySelector('.js-footer__apply--ru').classList.toggle('hide', true);
+    document.querySelector('.js-footer-contacts--en').classList.toggle('hide', false);
+    document.querySelector('.js-footer-contacts--ru').classList.toggle('hide', true);
   });
 
   document.querySelector('.js-switcher--ru').addEventListener('click', function () {
@@ -94,6 +106,18 @@ var language = function () {
     document.querySelector('.js-date-and-place__date--ru').classList.toggle('hide', false);
     document.querySelector('.js-date-and-place__place--en').classList.toggle('hide', true);
     document.querySelector('.js-date-and-place__place--ru').classList.toggle('hide', false);
+
+    /* Toggle How It Was Title*/
+    document.querySelector('.js-how-it-was__h2--en').classList.toggle('hide', true);
+    document.querySelector('.js-how-it-was__h2--ru').classList.toggle('hide', false);
+
+    /* Toggle Footer Content*/
+    document.querySelector('.js-footer__media--en').classList.toggle('hide', true);
+    document.querySelector('.js-footer__media--ru').classList.toggle('hide', false);
+    document.querySelector('.js-footer__apply--en').classList.toggle('hide', true);
+    document.querySelector('.js-footer__apply--ru').classList.toggle('hide', false);
+    document.querySelector('.js-footer-contacts--en').classList.toggle('hide', true);
+    document.querySelector('.js-footer-contacts--ru').classList.toggle('hide', false);
   });
 }();
 

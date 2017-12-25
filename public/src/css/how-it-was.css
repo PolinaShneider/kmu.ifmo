@@ -1,0 +1,53 @@
+.how-it-was {
+	max-width: var(--page-max-width);
+	margin: 0 auto;
+	margin-bottom: 40px;
+
+	&__h2 {
+		text-align: center;
+		margin: 40px 0;
+	}
+	&__photos {
+		display: flex;
+		align-items: center;
+		overflow: hidden;
+		&-item {
+			width: 33.33%;
+			flex-basis: 33.3%;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.how-it-was {
+		max-width: 100%;
+		&__photos {
+			&-item {
+				width: 25%;
+				flex-basis: 25%;
+			}
+		}
+	}
+}
+
+@media (--mobile) {
+	.how-it-was {
+		&__photos {
+			&-item {
+				width: 50%;
+				flex-basis: 50%;
+			}
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.how-it-was {
+		&__photos {
+			&-item {
+				width: 100%;
+				flex-basis: 100%;
+			}
+		}
+	}
+}
