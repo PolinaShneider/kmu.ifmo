@@ -1,6 +1,7 @@
 var progressiveLoading = function () {
   var placeholder = document.querySelector('.js-placeholder'),
-      small = placeholder.querySelector('.img-small');
+      small = placeholder.querySelector('.img-small'),
+      h1 = placeholder.querySelector('.main-info__h1');
 
   // 1: load small image and show it
   var img = new Image();
@@ -13,6 +14,7 @@ var progressiveLoading = function () {
 
   img.onload = function () {
     small.classList.add('loaded');
+    h1.classList.add('shadow');
   };
 
   // 2: load large image
