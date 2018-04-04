@@ -62,7 +62,7 @@
                     <img class="js-switcher--en" src="public/src/img/usa.svg" title="en">
                 </span>
             </div>
-            <div class="header__hamburger js-navigation__menu-opener"><i class="fa fa-bars"></i></div>
+            <div class="header__hamburger"><i class="fa fa-bars js-navigation__menu-opener"></i></div>
         </div>
     </header>
     <!-- End of Header Block -->
