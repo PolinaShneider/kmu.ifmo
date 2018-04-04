@@ -7,6 +7,7 @@
 
 	&__people {
 		display: flex;
+		justify-content: space-around;
 	    margin: 70px auto 0;
 
 	    &-wrapper {
