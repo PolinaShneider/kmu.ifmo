@@ -11,7 +11,8 @@
 
 	    &-wrapper {
 			max-width: 100%;
-		    overflow: auto;
+		    overflow-y: scroll;
+		    -webkit-overflow-scrolling: touch;
 		    width: calc(260px * 4);
 		    margin: 0 auto;
 	    }
