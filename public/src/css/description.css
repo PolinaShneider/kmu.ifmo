@@ -1,6 +1,6 @@
 .description {
     max-width: var(--page-max-width);
-	margin: 60px auto;
+	margin: 40px auto 60px;
 	padding: 0 30px;
     text-align: justify;
     font-size: 25px;
@@ -11,5 +11,6 @@
 	.description {
 		font-size: 20px;
 		text-align: initial;
+		margin-top: 25px;
 	}
 }

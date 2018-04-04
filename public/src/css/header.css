@@ -2,11 +2,12 @@
     box-sizing: border-box;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
+	width: 1440px;
+	max-width: 100%;
+	margin: 0 auto;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 2px 3px 0 rgba(38, 45, 67, 0.05);
     z-index: 7;
 
     &__container {
@@ -18,6 +19,17 @@
 	    min-height: 65px;
 	    margin: 0 auto;
 	    padding: 0 20px;
+	}
+
+	&__hamburger {
+	    display: none;
+	    align-items: center;
+	    justify-content: center;
+		height: 36px;
+	    width: 36px;
+	    color: white;
+	    font-size: 24px;
+	    cursor: pointer;
 	}
 
 	&__lang-switcher {
@@ -85,11 +97,15 @@
 @media (--mobile) {
 	.header {
 		background-color: rgba(0, 0, 0, 0.8);
+		box-shadow: none;
 		&__apply {
 			display: none;
 		}
 		&__title {
 			display: none;
+		}
+		&__hamburger {
+			display: flex;
 		}
 	}
 

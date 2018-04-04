@@ -1,0 +1,67 @@
+.experts {
+	margin: 40px 30px;
+	&__h2 {
+		text-align: center;
+		margin: 30px 0 40px;
+		font-size: 33px;
+	}
+	&__persons {
+		display: flex;
+		&-wrapper {
+			max-width: 100%;
+		    overflow: auto;
+		    width: calc(260px * 4);
+		    margin: 0 auto;
+		}
+		&-item {
+			margin: 0 30px;
+		}
+	}
+}
+@media (max-width: 600px) {
+	.experts {
+		&__persons {
+			&-item {
+				margin: 0;
+				min-width: 100%;
+				flex-basis: 100%;
+			}
+		}
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	.experts {
+		&__persons {
+			&-item {
+				margin: 0;
+				min-width: 50%;
+				flex-basis: 50%
+			}
+		}
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+	.experts {
+		&__persons {
+			&-item {
+				margin: 0;
+				min-width: 33%;
+				flex-basis: 33%
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.experts {
+		&__persons {
+			&-item {
+				margin: 0;
+				min-width: 25%;
+				flex-basis: 25%
+			}
+		}
+	}
+}
