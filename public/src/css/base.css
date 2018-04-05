@@ -15,6 +15,7 @@ html, body {
 	width: 1440px;
 	max-width: 100%;
 	overflow: hidden;
+	margin: 0 auto;
 }
 .anchor-wrapper {
 	position: relative;

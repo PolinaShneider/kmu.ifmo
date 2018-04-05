@@ -7,10 +7,14 @@
 		text-align: center;
 		margin: 40px 0;
 	}
+	&__wrapper {
+		overflow: hidden;
+	}
 	&__photos {
 		display: flex;
 		align-items: center;
-		overflow: hidden;
+		overflow-x: scroll;
+		-webkit-overflow-scrolling: touch;
 		&-item {
 			width: 33.33%;
 			flex-basis: 33.3%;
