@@ -26,3 +26,12 @@ $(function () {
     parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
   }
 });
+
+$(function () {
+  var parent = $('#shuffle4');
+  var divs = parent.children();
+
+  while (divs.length) {
+    parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+  }
+});

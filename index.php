@@ -262,7 +262,7 @@
         <h2 class="how-it-was__h2 js-how-it-was__h2--en hide">How it was in 2017</h2>
         <h2 class="how-it-was__h2 js-how-it-was__h2--ru">Как это было в 2017</h2>
         <div class="how-it-was__wrapper">
-            <div class="how-it-was__photos">
+            <div class="how-it-was__photos" id="shuffle4">
                 <img src="public/src/img/kmu3.png" class="how-it-was__photos-item">
                 <img src="public/src/img/kmu4.jpg" class="how-it-was__photos-item">
                 <img src="public/src/img/kmu1.png" class="how-it-was__photos-item">
