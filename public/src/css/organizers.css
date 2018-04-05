@@ -10,11 +10,15 @@
 		justify-content: space-around;
 	    margin: 70px auto 0;
 
+	    @media (max-width: 800px) {
+	    	justify-content: space-between;
+	    }
+
 	    &-wrapper {
 			max-width: 100%;
 		    overflow-x: scroll;
 		    -webkit-overflow-scrolling: touch;
-		    width: calc(260px * 4);
+		    width: calc(260px * 3);
 		    margin: 0 auto;
 	    }
 	}
