@@ -35,7 +35,7 @@
     </nav>
 </div>
 <!-- Start of Main Page Container -->
-<div class="page-container">
+<div class="page-container shadow">
     <!-- Start of Header Block -->
     <header class="header">
         <div class="header__container">
